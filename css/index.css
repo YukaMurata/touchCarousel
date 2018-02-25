@@ -1,0 +1,223 @@
+img {
+    width: 100%
+}
+
+body {
+    background: #fff
+}
+
+.tab {
+    padding: 4.66667% 4.66667% 0;
+    background: #eeeeee
+}
+
+.tab ul {
+    font-size: 0
+}
+
+.tab ul li {
+    width: 48.52941%;
+    display: inline-block;
+    margin: 0 .73529%
+}
+
+.tab ul li a {
+    display: block;
+    color: #fff;
+    background: #f50d0d;
+    text-decoration: none;
+    text-align: center;
+    font-size: 14px;
+    padding: 8.48485% 0;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px
+}
+
+.tab ul li.current a {
+    color: #000;
+    background: #fff
+}
+
+.content {
+    background: #fff;
+    padding: 10.66667% 0
+}
+
+.step {
+    position: relative;
+    padding: 0 0 24%
+}
+
+.step dt {
+    margin: 0 0 5.6%;
+    text-align: center;
+}
+
+.step:before {
+    content: "";
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 9.86667%;
+    height: 6.48536%;
+    padding-bottom: 6.27615%;
+    /*background: url("/images/arrow_g.png") no-repeat center top;*/
+    background-size: 100%
+}
+
+.step.no-arrow:before {
+    display: none
+}
+
+.step .img-box {
+    width: 69.33333%;
+    margin: 0 auto
+}
+
+.step .note {
+    color: #666666;
+    font-size: 10px;
+    text-indent: -12px;
+    padding-left: 12px;
+    margin: 6% 5.33333% 7.33333%;
+    line-height: 1.4
+}
+
+.carousel {
+    position: relative
+}
+
+.carousel .carousel-wrap {
+    width: 69.33333%;
+    margin: 0 auto;
+    overflow: hidden
+}
+
+.carousel .slide {
+    width: 300%;
+    font-size: 0;
+    transform: translateX(0);
+}
+
+.carousel .slide div {
+    width: 33.33333%;
+    display: inline-block
+}
+
+.carousel .nav {
+    text-align: center;
+    font-size: 0;
+    margin: 5px 0 5.6%
+}
+
+.carousel .nav li {
+    display: inline-block;
+    margin: 0 5px
+}
+
+.carousel .nav li a {
+    display: block;
+    width: 8px;
+    height: 8px;
+    background: #eeeeee;
+    border-radius: 4px
+}
+
+.carousel .nav li.current a {
+    background: #b3b3b3
+}
+
+.carousel .controls {
+    position: absolute;
+    width: 100%;
+    height: 20px;
+    top: 45.45455%
+}
+
+.carousel .controls .next {
+    position: absolute;
+    right: 5.33333%;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #eeeeee;
+    border-right: 2px solid #eeeeee;
+    -webkit-transform: rotate(45deg);
+    transform: rotate(45deg)
+}
+
+.carousel .controls .next.active {
+    border-top: 2px solid #f50000;
+    border-right: 2px solid #f50000
+}
+
+.carousel .controls .prev {
+    position: absolute;
+    left: 5.33333%;
+    width: 20px;
+    height: 20px;
+    border-top: 2px solid #eeeeee;
+    border-left: 2px solid #eeeeee;
+    -webkit-transform: rotate(-45deg);
+    transform: rotate(-45deg)
+}
+
+.carousel .controls .prev.active {
+    border-top: 2px solid #f50000;
+    border-left: 2px solid #f50000
+}
+
+.btn-red a {
+    font-size: 16px;
+    font-size: 4.26667vw;
+    color: #fff;
+    box-sizing: border-box;
+    width: 89.33333%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 3.90625% 0;
+    border-radius: 50px;
+    border-radius: 6.66667vw;
+    /*background: url("/images/btn_arrow_r.png") no-repeat 95% center #f40000*/
+}
+
+.btn-white a {
+    font-size: 16px;
+    font-size: 4.26667vw;
+    color: #f40000;
+    box-sizing: border-box;
+    width: 89.33333%;
+    margin: 0 auto;
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 3.90625% 0;
+    border-radius: 50px;
+    border-radius: 6.66667vw;
+    border: 1px solid #f40000;
+    background: url("/images/btn_arrow_r2.png") no-repeat 95% center
+}
+
+.index .content {
+    padding: 0 0 13.33333%
+}
+
+.index .content .title {
+    width: 56.4%;
+    padding: 9.33333% 0;
+    margin: 0 auto
+}
+
+.index .content .text {
+    font-size: 14px;
+    line-height: 2;
+    margin: 0 5.33333% 9.33333%
+}
+
+.index .content .btn-white {
+    margin: 2.66667% 0 0
+}
